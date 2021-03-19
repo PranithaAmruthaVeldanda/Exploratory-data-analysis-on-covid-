@@ -73,11 +73,9 @@ Number of cases is high in the counties which have more property with the suppor
 #### 6. Evaluation Phase
 We used exploratory data analysis to analyze the mobility trends of different places across all the US states, we observed that mobility has dropped to a greater extent in retail and recreation, transit_stations, and workplaces. We used heatmap to show the correlation between the columns of the mobility dataset. Histogram plots show us the number of cases in different states and also states with the highest positive cases wrt to the state’s population.
 
-We are visualizing the trends of mobility during COVID19 to different public places using the graphs plotted using the plotly library. Hovering on each individual state gives the statistics such as the total number of positive cases, change in mobility to 6 mentioned public places. States with darker colors indicate the mobility is high and as the color intensity decrease, it indicates the states with low mobility than that of baseline. As part of the representation of these graphs, we need to install the following two libraries namely plotly and chart_studio
+We are visualizing the trends of mobility during COVID19 to different public places using the graphs plotted using the plotly library. Hovering on each individual state gives the statistics such as the total number of positive cases, change in mobility to 6 mentioned public places. States with darker colors indicate the mobility is high and as the color intensity decrease, it indicates the states with low mobility than that of baseline. As part of the representation of these graphs, we need to install the following two libraries namely plotly and chart_studio mobility
 
-mobility
-
-Summary
+#### Summary
 After we have performed our analysis on the mobility dataset we have got to following conclusions. The mobility of cases has dropped mostly in Blue states and the mobility increased in Red states.
 
 lowdrop
@@ -94,7 +92,8 @@ There is a huge amount of mobility drop in the states like Washington DC, Hawaii
 We can understand that as these states are mostly visited by tourists, due to the pandemic there is a huge drop in mobility in such places.
 On another hand, there is no much decrease in the mobility of people in the states like Idaho, Wisconsin, Wyoming, and South Dakota.
 We can observe that these states are mostly the mid-central states which are not affected by the COVID'19 much.
-summary
+
+#### summary
 What was unique about the data?  Did you have to deal with imbalance? What data cleaning did you do?
 We have combined the covid-19 community mobility dataset and the covid-19 cases dataset from February to November to get the required results and there was a lot of imbalance between the two datasets and  We have 2 different data types and they are numeric and categorical. We have a column "Date" which is of data type object and we converted it to date type. Also removed unwanted extra columns this includes duplicate or irrelevant observations which are not useful for our analysis for example in feature selection we have data corresponding to each county within the state and as we concentrated more on state-wise data we dropped the county wise data. We had many missing values in the datasets which we cannot ignore missing values in our dataset, So we have dropped some observations and have replaced some with the 0. We have also observed that there are outliers in all places.
 
