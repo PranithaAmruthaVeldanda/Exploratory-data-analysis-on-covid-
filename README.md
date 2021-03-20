@@ -1,14 +1,6 @@
-## Project Group 3
-## Exploratory Data Analysis of COVID’19 impact on Community Mobility
- 
-### Team Members: 
 
-- Shiva Sai Praneeth Chakinala-  801147603
-- Chaitanya Kintali 	          -	 801097831
-- Prashanth Minkuri    	       -  801166901
-- Pranitha Amrutha Veldanda    -  801166969
- 
- 
+## Exploratory Data Analysis of COVID’19 impact on Community Mobility
+
 ## Project Introduction:
  
 We will be performing Exploratory Data Analysis on the Community Mobility Reports data provided by Google during the pandemic period and analyze how the mobility of people to various popular public places has changed. We will try to extract various insights such as how the visits and duration of stay at different places changed compared to a baseline and the number of COVID positive cases. The baseline is considered as the median value for the corresponding day of the 5- week period duration Jan 3–Feb 6, 2020.
@@ -169,7 +161,7 @@ Make sure to put both Dataset and Notebook in the same folder.
 Now you can have access to the model we have built you can make an analysis using our dataset.
 
 You can find all the visualisations we have performed in seperate pdf file 
-https://github.com/pminkuri/KDD_Group3/blob/main/Visualizations.pdf
+Visualizations.pdf
 
 
 
